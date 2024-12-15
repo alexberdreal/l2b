@@ -1,0 +1,7 @@
+[package]
+name = "l2book"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+protocol = { package = "protocol", path = "../protocol" }

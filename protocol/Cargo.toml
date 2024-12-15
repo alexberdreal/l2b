@@ -1,0 +1,9 @@
+[package]
+name = "protocol"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+derive_more.workspace = true
+rust_decimal = "1.36.0"
+rust_decimal_macros = { version = "1.36.0", features = ["reexportable"] }

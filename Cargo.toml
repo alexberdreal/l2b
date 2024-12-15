@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "l2book",
+    "protocol"
+]
+
+[workspace.dependencies]
+derive_more = { version =  "1.0.0", features = ["full"] }
